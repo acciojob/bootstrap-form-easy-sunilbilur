@@ -11,9 +11,9 @@
 
 </head>
 
-<body>
 <body class="p-4">
   <form class="needs-validation" novalidate>
+    
     <div class="mb-3">
       <label for="first-name-input" class="form-label">First Name</label>
       <input type="text" class="form-control" id="first-name-input" required />
@@ -27,26 +27,26 @@
     </div>
 
     <div class="mb-3">
-      <label for="email-input" class="form-label">Email</label>
+      <label for="email-input" class="form-label">Email Address</label>
       <input type="email" class="form-control" id="email-input" required />
-      <div class="invalid-feedback">Please enter a valid email.</div>
+      <div class="invalid-feedback">Please enter a valid email address.</div>
     </div>
 
     <div class="mb-3">
-      <label for="college-input" class="form-label">College Name</label>
+      <label for="college-input" class="form-label">College</label>
       <input type="text" class="form-control" id="college-input" required />
       <div class="invalid-feedback">Please enter your college name.</div>
     </div>
 
     <div class="mb-3">
-      <label for="roll-no-input" class="form-label">Roll No</label>
+      <label for="roll-no-input" class="form-label">Roll No.</label>
       <input type="text" class="form-control" id="roll-no-input" required />
       <div class="invalid-feedback">Please enter your roll number.</div>
     </div>
 
     <div class="mb-3">
-      <label for="grad-year" class="form-label">Graduation Year</label>
-      <select class="form-select" id="grad-year" required>
+      <label for="grad-year-select" class="form-label">Graduation Year</label>
+      <select class="form-select" id="grad-year-select" required>
         <option value="">Choose year</option>
         <option>2020</option>
         <option>2021</option>
@@ -58,8 +58,8 @@
 
     <div class="form-check mb-3">
       <input class="form-check-input" type="checkbox" id="conditions-checkbox" required />
-      <label class="form-check-label" for="conditions-checkbox">
-        I agree to the terms and conditions
+      <label class="form-check-label form-label" for="conditions-checkbox">
+        Agree to terms and conditions
       </label>
       <div class="invalid-feedback">You must agree before submitting.</div>
     </div>
@@ -67,10 +67,6 @@
     <button class="btn btn-primary" type="submit">Submit</button>
   </form>
 
-
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
 </body>
 
